@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.hzbl360.mapper.GoodsMapper">
+
+    <!--<select id="getDemoById" resultType="com.hzbl360.pojo.Demo" >-->
+        <!--select * from demo where id = #{id}-->
+    <!--</select>-->
+    <resultMap id="goodsdMap" type="com.hzbl360.pojo.Goods">
+        <id property="id" column="id"/>
+        <result property="goodsName" column="goods_name"/>
+        <result property="goodsDesc" column="goods_desc"/>
+        <result property="goodsTotal" column="goods_total"/>
+        <result property="gootsNum" column="goods_num"/>
+    </resultMap>
+
+    <!-- 添加领用物品 -->
+    <insert id="insertGoods">
+        insert into goods(goods_name,goods_desc,goods_total,goods_num)
+        values(#{goodsName},#{goodsDesc},#{goodsTotal},#{goodsNum})
+    </insert>
+
+
+    <!--  办公用品详情页  -->
+    <select id="getAllGoods" resultType="com.hzbl360.pojo.Goods">
+        select * from goods where id > #{start}  order by id desc limit #{start},#{pageSize }
+
+    </select>
+
+    <!-- 返回总记录数 -->
+    <select id="getCountGoods" resultType="Integer">
+        select count(*) from goods
+    </select>
+</mapper>

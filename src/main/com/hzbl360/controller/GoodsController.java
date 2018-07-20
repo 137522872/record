@@ -3,6 +3,7 @@ package com.hzbl360.controller;
 
 import com.hzbl360.pojo.Goods;
 import com.hzbl360.service.GoodsService;
+import com.hzbl360.tools.Page;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,9 +43,9 @@ public class GoodsController {
     //办公用品详情页
     @RequestMapping("/goods/list")
     @ResponseBody
-    public String list(@Param("currentPage") Integer currentPage, @Param("pageSize") Integer pageSize){
+    public String list(Page page){
 
-        String allGoods = goodsService.getAllGoods(currentPage, pageSize);
+        String allGoods = goodsService.getAllGoods(page);
         return allGoods;
     }
 }

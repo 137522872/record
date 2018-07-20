@@ -6,7 +6,87 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54136719-48b6-4a83-8a0e-d9b0b899966c" name="Default" comment="" />
+    <list default="true" id="54136719-48b6-4a83-8a0e-d9b0b899966c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/controller/RecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/mapper/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/mapper/RecordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/mapper/RecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/pojo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/pojo/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/pojo/Record.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/service/RecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/tools/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hzbl360/tools/ReturnResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/goodslist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/views/insertgoods.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/controller/RecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/mapper/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/mapper/RecordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/mapper/RecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/pojo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/pojo/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/pojo/Record.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/service/RecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/tools/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/com/hzbl360/tools/ReturnResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/mybatis-conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/WEB-INF/views/goodslist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/WEB-INF/views/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/WEB-INF/views/insertgoods.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/classes/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/views/goodslist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/views/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/views/insertgoods.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/officegoods/index.jsp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +101,7 @@
       <file leaf-file-name="GoodsMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/GoodsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="306">
               <caret line="21" selection-start-line="21" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,28 +132,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecordService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/service/RecordService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="40" column="114" lean-forward="true" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
+            <state relative-caret-position="321">
+              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#896#897#0" expanded="true" />
                 <element signature="e#920#921#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="officegoods.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/officegoods.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
             </state>
           </provider>
         </entry>
@@ -87,20 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goodslist.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodslist.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="640">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +197,8 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/tools/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="1307">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
               <folding>
                 <element signature="e#354#355#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
@@ -168,6 +245,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -193,7 +273,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/insert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insert.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/service/ReturnResult.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertgoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
@@ -201,10 +280,11 @@
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/service/Page.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/GoodsMapper.java" />
         <option value="$PROJECT_DIR$/src/resources/mybatis-conf.xml" />
-        <option value="$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/tools/Page.java" />
         <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java" />
       </list>
     </option>
   </component>
@@ -224,12 +304,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-76" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="291" />
+    <option name="y" value="215" />
     <option name="width" value="1400" />
     <option name="height" value="1088" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -393,11 +474,11 @@
       <recent name="E:\myproject\record\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myproject\record\src\resources" />
       <recent name="E:\myproject\record\src\main\webapp\WEB-INF\views" />
       <recent name="E:\myproject\record\src\resources\com\hzbl360\mapper" />
       <recent name="C:\Users\os\Desktop\myproject\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\os\Desktop\myproject\src\resources" />
-      <recent name="C:\Users\os\Desktop\myproject\src\main\com\hzbl360\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -633,16 +714,15 @@
       <workItem from="1531900775386" duration="2806000" />
       <workItem from="1531911040609" duration="10595000" />
       <workItem from="1531958386016" duration="3748000" />
-      <workItem from="1531962747067" duration="21837000" />
+      <workItem from="1531962747067" duration="22982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38986000" />
+    <option name="totallyTimeSpent" value="40131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -662,11 +742,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47116432" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33442265" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -686,13 +766,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -920,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1009,16 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/mybatis-conf.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1026,20 +1082,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/GoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="459">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/officegoods.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/tools/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="1307">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
           <folding>
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
@@ -1073,21 +1162,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/GoodsMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="40" column="114" lean-forward="true" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
+        <state relative-caret-position="640">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1098,7 +1178,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>officegoods:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1159,7 +1239,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

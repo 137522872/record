@@ -40,7 +40,7 @@ public class GoodsService {
         }
     }
 
-    public String getAllGoods(Integer currentPage,Integer pageSize){
+    public String getAllGoods(Page page){
 
         int count = goodsMapper.getCountGoods();
 
@@ -61,6 +61,9 @@ public class GoodsService {
             System.out.println(goods);
         }
         pager.setContent(content);
+
+
+
 
         return  JSONObject.fromObject(pager).toString();
     }

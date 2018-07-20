@@ -4,13 +4,17 @@
 
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>办公电脑设备领用记录!</h2>
 
 
 <a href="/goods/insert">添加办公用品</a>
 <br>
 <br>
-<a href="/goods/list">办公用品详情页</a>
+
+<a href="/record/list">领用记录列表页</a>
+<br>
+<br>
+<a href="/goods/list">办公用品列表页</a>
 <br>
 <br>
 

@@ -31,6 +31,13 @@ public class RecordService {
     }
 
     //列出所有领用记录
+
+    /**
+     *
+     * 领用记录列表页
+     * @param page
+     * @return
+     */
     public String getRecordAll(Page page){
 
         int count = recordMapper.getRecordCount();
@@ -63,5 +70,16 @@ public class RecordService {
         JSONObject json = new JSONObject();
 
         return JSONObject.fromObject(pager,jsonConfig).toString();
+    }
+
+    /**
+     * 添加领用记录
+     * @param record
+     * @return
+     */
+    public Integer insertRecord(Record record){
+
+
+        return 0;
     }
 }

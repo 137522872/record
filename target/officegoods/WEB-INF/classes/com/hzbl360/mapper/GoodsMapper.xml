@@ -33,4 +33,25 @@
     <select id="getCountGoods" resultType="Integer">
         select count(*) from goods
     </select>
+
+    <!-- 办公用品数量(应该不限定为单一字段)修改-->
+    <update id="updateGoods" >
+        update goods
+         <set>
+             <if test="goodsName != null and goodsName != '' ">
+                 goods_name = #{goodsName},
+             </if>
+             <if test="goodsDesc != null and goodsDesc !='' ">
+                 goods_desc = #{goodsDesc},
+             </if>
+             <if test="goodsNum != null">
+                  goods_num = #{goodsNum},
+             </if>
+             <if test="goodsTotal != null">
+                 goods_total = #{goodsTotal},
+             </if>
+             id = #{id},
+         </set>
+        where id = #{id}
+    </update>
 </mapper>

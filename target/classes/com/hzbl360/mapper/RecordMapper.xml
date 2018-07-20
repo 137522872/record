@@ -83,4 +83,9 @@
     <select id="getRecordCount" resultType="Integer">
         select count(*) from record
     </select>
+
+    <!--  办公用品领用 (添加领用记录)  -->
+    <insert id="insertRecord" >
+        insert into record(record_name,record_status,record_date,goods_id) values (#{recordName},1,#{recordDate},#{goods.id})
+    </insert>
 </mapper>

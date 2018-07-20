@@ -23,4 +23,7 @@ public interface GoodsMapper {
 
     //获取总记录数
     public Integer getCountGoods();
+
+    //办公用品数量的修改
+    public Integer updateGoods(Goods goods);
 }

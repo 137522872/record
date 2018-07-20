@@ -20,17 +20,15 @@ public class GoodsService {
     public String insertGoods(Goods goods) {
 
         ReturnResult returnResult = null;
-        System.out.println(goods +": GoodsService");
-        System.out.println(goods.getGoodsNum()+" :getGoodsNum");
-        System.out.println(goods.getGoodsTotal()+ ": GETgOODStOTAL");
+
         if (goods.getGoodsNum() > 0 && goods.getGoodsTotal() > 0) {
-            System.out.println("integer" + ".....insert");
+
             Integer integer = goodsMapper.insertGoods(goods);
 
             if (integer > 0) {
-                returnResult = ReturnResult.result(integer, "添加成功", "");
+                returnResult = ReturnResult.result( 1, "添加成功", "");
             } else {
-                returnResult = ReturnResult.result(integer, "添加失败", "");
+                returnResult = ReturnResult.result(0, "添加失败", "");
             }
 
             return JSONObject.fromObject(returnResult).toString();
@@ -40,6 +38,12 @@ public class GoodsService {
         }
     }
 
+
+    /**
+     * 获取所有物品,给物品的列表页
+     * @param page 分页
+     * @return
+     */
     public String getAllGoods(Page page){
 
         int count = goodsMapper.getCountGoods();
@@ -65,5 +69,30 @@ public class GoodsService {
 
         pager.setContent(content);
         return  JSONObject.fromObject(pager).toString();
+    }
+
+
+    /**
+     * 办公用品的修改
+     * @param goods
+     * @return
+     */
+    public ReturnResult updateGoods(Goods goods){
+
+        Integer integer = goodsMapper.updateGoods(goods);
+
+        ReturnResult returnResult = new ReturnResult();
+
+        if(integer != 0) {
+
+            returnResult= ReturnResult.result(1, "修改成功", null);
+            return returnResult;
+        }else {
+
+            returnResult = ReturnResult.result(0,"修改失败",null);
+            return returnResult;
+        }
+
+
     }
 }

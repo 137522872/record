@@ -22,4 +22,8 @@ public interface RecordMapper {
 
     //获取总记录数
     public Integer getRecordCount();
+
+    //办公用品领用 (添加领用记录)
+    public Integer insertRecord();
+
 }

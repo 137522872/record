@@ -71,7 +71,11 @@ var _hmt = _hmt || [];
 								<span class=""></span>
 							</div>
 						</div>
+
+
+						<br>
 						<!-- 功能按钮 -->
+
 						<p class="text-right">
 							<button id="btnSubmit" type="submit" class="btn btn-primary">
 								提交
@@ -80,7 +84,7 @@ var _hmt = _hmt || [];
 								重置
 							</button>
 						</p>
-						
+
 						<script>
 						/**	function checkInput(txt){
                      //追加样式是先移除样式表后追加							
@@ -111,7 +115,7 @@ var _hmt = _hmt || [];
 								$("#btnSubmit").click(function(){
 									$.ajax({
 										type: 'POST',
-										url: 'http://localhost:8080/goods/insertGoods',
+										url: 'http://192.168.12.17:8080/goods/insertGoods',
 										data: {
 											goodsName: $('#goodsName').val(),
 											goodsDesc: $('#goodsDesc').val(),

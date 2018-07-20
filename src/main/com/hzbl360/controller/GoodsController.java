@@ -34,16 +34,16 @@ public class GoodsController {
 
 
     //添加办公用品
-    @RequestMapping("/goods/insert")
+    @RequestMapping(value = "/goods/insert")
     public String insert(){
         return "insertgoods";
     }
 
 
     //办公用品详情页
-    @RequestMapping("/goods/list")
+    @RequestMapping(value = "/goods/list",produces = "text/html;charset=UTF-8")
     @ResponseBody
-    public String list(Page page){
+    public String listPage(Page page){
 
         String allGoods = goodsService.getAllGoods(page);
         return allGoods;

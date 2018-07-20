@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/cache"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xmlns:mybatis-spring="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://mybatis.org/schema/mybatis-spring
+       http://mybatis.org/schema/mybatis-spring.xsd">
+
+
+    <!--  Spring 管理所有的业务逻辑组件,等... -->
+
+
+    <!-- 引入数据库配置文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <context:component-scan base-package="com.hzbl360">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <!--<context:component-scan base-package="com.hzbl360"/>-->
+
+    <!--  Spring 用来控制业务逻辑 ,数据源,事物控制, aop -->
+    <!-- 整合MyBatis  用spring管理所有组件 ,-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+    <!--  事物管理器-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--  开启基于注解的事物-->
+    <!--<tx:annotation-driven />-->
+
+
+    <!-- 创建出SqlSessionFactory对象 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <!-- 指定mybatis全局配置文件 -->
+        <property name="configLocation" value="classpath:mybatis-conf.xml"></property>
+
+        <!-- 指定mapper文件的位置  -->
+        <!--<property name="mapperLocations" value="classpath:com/hzbl360/mapper/*.xml"></property>-->
+    </bean>
+
+
+    <!-- 扫描所有mapper接口,让这些mapper能够自动注入-->
+    <!--<mybatis-spring:scan base-package="com.hzbl360.mapper"></mybatis-spring:scan>-->
+    <mybatis:scan base-package="com.hzbl360.mapper"/>
+</beans>

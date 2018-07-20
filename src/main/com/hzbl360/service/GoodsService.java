@@ -47,24 +47,23 @@ public class GoodsService {
         Page<Goods> pager = new Page<>();
 
 
-//        if(currentPage !=1 && currentPage >0) {
-//            pager.setCurrentPage(currentPage);
-//        }
-//        if(pageSize !=2 && pageSize> 0) {
-//            pager.setPageSize(pageSize);
-//        }
+        if(page.getCurrentPage() >0) {
+            pager.setCurrentPage(page.getCurrentPage());
+        }
+        if(page.getPageSize() >0) {
+            pager.setPageSize(page.getPageSize());
+        }
 
-        System.out.println(pager);
+
         List<Goods> content = goodsMapper.getAllGoods(pager);
 
-        for(Goods goods:content){
-            System.out.println(goods);
+        if((count % pager.getPageSize()) !=0){
+            pager.setPageTotal((count / pager.getPageSize()) +1);
+        } else {
+            pager.setPageTotal( (count / pager.getPageSize()));
         }
+
         pager.setContent(content);
-
-
-
-
         return  JSONObject.fromObject(pager).toString();
     }
 }

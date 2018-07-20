@@ -2,9 +2,11 @@ package com.hzbl360.controller;
 
 import com.hzbl360.pojo.Record;
 import com.hzbl360.service.RecordService;
+import com.hzbl360.tools.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 import java.util.Map;
@@ -33,16 +35,12 @@ public class RecordController {
 
 
     //列出所有领用记录
-    @RequestMapping("/all")
-    public String getRecordAll(Map<String,Object> map){
+    @RequestMapping(value = "/record/list",produces = "text/html;charset=UTF-8")
+    @ResponseBody
+    public String listPage(Page page){
 
-        List<Record> recordAll = recordService.getRecordAll();
+        String recordAll = recordService.getRecordAll(page);
+        return recordAll;
 
-        map.put("allRecord",recordAll);
-
-        for(Record record:recordAll){
-            System.out.println(record);
-        }
-        return "goodslist";
     }
 }

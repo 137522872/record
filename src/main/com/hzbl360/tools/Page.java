@@ -1,15 +1,19 @@
 package com.hzbl360.tools;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Component
 public class Page<T> {
 
     //当前页
     private int currentPage = 1;
 
-    //当前的起始索引
+    //当前的起始索引 (起始行数)
     private int start;
-    //每页大小
+
+    //每页大小 (每页显示行数)
     private int pageSize = 2;
 
     //总页数

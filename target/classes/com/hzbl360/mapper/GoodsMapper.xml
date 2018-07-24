@@ -54,4 +54,9 @@
          </set>
         where id = #{id}
     </update>
+
+    <!-- -->
+    <update id="updateGoodsNum">
+        update  goods set goods_num = goods_num - #{recordNum} where id = #{id}
+    </update>
 </mapper>

@@ -2,6 +2,7 @@ package com.hzbl360.mapper;
 
 
 import com.hzbl360.pojo.Goods;
+import com.hzbl360.pojo.Record;
 import com.hzbl360.tools.Page;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -26,4 +27,7 @@ public interface GoodsMapper {
 
     //办公用品数量的修改
     public Integer updateGoods(Goods goods);
+
+    //
+    public Integer updateGoodsNum(@Param("id") Integer id,@Param("recordNum") Integer recordNum);
 }

@@ -86,6 +86,6 @@
 
     <!--  办公用品领用 (添加领用记录)  -->
     <insert id="insertRecord" >
-        insert into record(record_name,record_status,record_date,goods_id) values (#{recordName},1,#{recordDate},#{goods.id})
+        insert into record(record_name,record_date,goods_id,record_num,record_status) values (#{recordName},#{recordDate},#{goodsId},#{recordNum},1)
     </insert>
 </mapper>

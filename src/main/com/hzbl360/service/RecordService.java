@@ -1,17 +1,20 @@
 package com.hzbl360.service;
 
 
+import com.hzbl360.mapper.GoodsMapper;
 import com.hzbl360.mapper.RecordMapper;
 import com.hzbl360.pojo.Goods;
 import com.hzbl360.pojo.Record;
 import com.hzbl360.tools.JsonDateValueProcessor;
 import com.hzbl360.tools.Page;
+import com.hzbl360.tools.ReturnResult;
 import net.sf.json.JSON;
 import net.sf.json.JSONObject;
 import net.sf.json.JsonConfig;
 import net.sf.json.util.JSONUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
@@ -21,6 +24,10 @@ public class RecordService {
 
     @Autowired
     private RecordMapper recordMapper;
+
+    @Autowired
+    private GoodsMapper goodsMapper;
+
 
     //通过物品id查询领用记录
     public List<Record> getRecordByGoodsId(Integer goodsId){
@@ -77,9 +84,28 @@ public class RecordService {
      * @param record
      * @return
      */
-    public Integer insertRecord(Record record){
 
+    public String insertRecord(Record record){
 
-        return 0;
+        System.out.println(record);
+        Goods goods = new Goods();
+        goods.setId(record.getGoodsId());
+
+        System.out.println("goods " + goods);
+
+        Integer recordResult = recordMapper.insertRecord(record);
+        Integer goodsResult = goodsMapper.updateGoodsNum(record.getGoodsId(),record.getRecordNum());
+
+        ReturnResult returnResult = null;
+        if( recordResult > 0 && goodsResult > 0){
+
+            returnResult = ReturnResult.result(1,"success","");
+
+            return JSONObject.fromObject(returnResult).toString();
+        }else {
+            returnResult = ReturnResult.result(0,"false","");
+
+            return JSONObject.fromObject(returnResult).toString();
+        }
     }
 }

@@ -33,7 +33,6 @@ public class UserFilter implements Filter {
 
         if(user == null && !url.endsWith("/goods/list")/*&& !url.endsWith("login.jsp")*/){
 
-
             response.sendRedirect(request.getContextPath() + "/goods/list");
         } else {
 
